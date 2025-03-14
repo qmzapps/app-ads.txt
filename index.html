@@ -9,14 +9,19 @@
       body {
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
-        text-align: center;
         background: #00262E;
         color: #FFFFFF;
+        text-align: center;
+        /* Modern-ish font stack: */
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        /* Base font size for everything unless overridden: */
+        font-size: 16px;
       }
+
       header {
         padding: 20px;
       }
+
       .app-icon {
         width: 100px;
         height: 100px;
@@ -24,11 +29,25 @@
         display: block;
         margin: 0 auto 10px auto;
       }
+
+      /* Larger heading font: */
+      h1 {
+        font-size: 2em; /* You can adjust this up or down as desired */
+        margin: 0;
+      }
+
       main {
         margin: 40px auto;
         max-width: 600px;
         padding: 0 20px;
       }
+
+      /* Larger paragraph text: */
+      p {
+        font-size: 1.25em; /* ~20px if base is 16px */
+        line-height: 1.5;
+      }
+
       .button {
         display: inline-block;
         margin: 10px;
@@ -39,6 +58,7 @@
         color: #00262E;
         font-weight: bold;
       }
+
       footer {
         padding: 20px;
         margin-top: 40px;
@@ -54,10 +74,10 @@
     </header>
 
     <main>
-<p>
-  Welcome to AltLife, the ultimate text-based life simulator available on Android and iOS!<br>
-  For support inquiries or more information about the game, check out the links below.
-</p>
+      <p>
+        Welcome to AltLife, the ultimate text-based life simulator available on Android and iOS!<br><br>
+        For support inquiries or more information about the game, check out the links below.
+      </p>
       <div>
         <a class="button" href="mailto:qmzapps@gmail.com">Contact Support</a>
         <a class="button" href="https://instagram.com/qmzapps" target="_blank">Follow on Instagram</a>
